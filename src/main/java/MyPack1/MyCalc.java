@@ -6,9 +6,15 @@ public class MyCalc {
 	{
 		return a+b;
 	}
+	public int mul(int a,int b)
+	{
+		return a*b;
+	}
 	public static void main(String[] args) {		
 		MyCalc myCalc=new MyCalc();
-		System.out.println(myCalc.sum(10,20));
+		System.out.println("Sum:"+myCalc.sum(10,20));
+		System.out.println("Mul:"+myCalc.mul(10,20));
+
 	}
 
 }
