@@ -14,8 +14,8 @@ public class MyCalc {
 		MyCalc myCalc=new MyCalc();
 		System.out.println("Sum:"+myCalc.sum(10,20));
 		System.out.println("Mul:"+myCalc.mul(10,20));
-		System.out.println("Sum:"+myCalc.sum(10,20));
-		System.out.println("Mul:"+myCalc.mul(10,20));
+		System.out.println("Sum1:"+myCalc.sum(10,20));
+		System.out.println("Mul1:"+myCalc.mul(10,20));
 
 	}
 
